@@ -1,0 +1,72 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:19 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Thu Jul  6 11:24:10 2017
+# Process ID: 10299
+# Current directory: /home/seba/documents/hepia/lora/lora_host_work/counter_PPS/counter_PPS.runs/sync_counter_PPS_system_ila_0_synth_1
+# Command line: vivado -log sync_counter_PPS_system_ila_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source sync_counter_PPS_system_ila_0.tcl
+# Log file: /home/seba/documents/hepia/lora/lora_host_work/counter_PPS/counter_PPS.runs/sync_counter_PPS_system_ila_0_synth_1/sync_counter_PPS_system_ila_0.vds
+# Journal file: /home/seba/documents/hepia/lora/lora_host_work/counter_PPS/counter_PPS.runs/sync_counter_PPS_system_ila_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source sync_counter_PPS_system_ila_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1183.219 ; gain = 256.008 ; free physical = 921 ; free virtual = 10039
+INFO: [Synth 8-638] synthesizing module 'sync_counter_PPS_system_ila_0' [/home/seba/documents/hepia/lora/lora_host_work/counter_PPS/counter_PPS.srcs/sources_1/bd/sync_counter_PPS/ip/sync_counter_PPS_system_ila_0/synth/sync_counter_PPS_system_ila_0.vhd:65]
+INFO: [Synth 8-638] synthesizing module 'bd_6c1d' [/home/seba/documents/hepia/lora/lora_host_work/counter_PPS/counter_PPS.srcs/sources_1/bd/sync_counter_PPS/ip/sync_counter_PPS_system_ila_0/bd_0/hdl/bd_6c1d.vhd:27]
+INFO: [Synth 8-638] synthesizing module 'bd_6c1d_ila_lib_0' [/home/seba/documents/hepia/lora/lora_host_work/counter_PPS/counter_PPS.srcs/sources_1/bd/sync_counter_PPS/ip/sync_counter_PPS_system_ila_0/bd_0/ip/ip_0/synth/bd_6c1d_ila_lib_0.vhd:64]
+INFO: [Synth 8-638] synthesizing module 'CFGLUT5' [/opt/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:998]
+INFO: [Synth 8-256] done synthesizing module 'CFGLUT5' (8#1) [/opt/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:998]
+INFO: [Synth 8-638] synthesizing module 'CARRY4' [/opt/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:961]
+INFO: [Synth 8-256] done synthesizing module 'CARRY4' (9#1) [/opt/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:961]
+INFO: [Synth 8-638] synthesizing module 'SRLC32E' [/opt/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:43478]
+INFO: [Synth 8-256] done synthesizing module 'SRLC32E' (19#1) [/opt/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:43478]
+INFO: [Synth 8-638] synthesizing module 'SRL16E' [/opt/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:43328]
+INFO: [Synth 8-256] done synthesizing module 'SRL16E' (21#1) [/opt/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:43328]
+INFO: [Synth 8-638] synthesizing module 'SRLC16E' [/opt/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:43417]
+INFO: [Synth 8-256] done synthesizing module 'SRLC16E' (23#1) [/opt/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:43417]
+INFO: [Synth 8-638] synthesizing module 'FDRE' [/opt/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-256] done synthesizing module 'FDRE' (28#1) [/opt/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-256] done synthesizing module 'bd_6c1d_ila_lib_0' (46#1) [/home/seba/documents/hepia/lora/lora_host_work/counter_PPS/counter_PPS.srcs/sources_1/bd/sync_counter_PPS/ip/sync_counter_PPS_system_ila_0/bd_0/ip/ip_0/synth/bd_6c1d_ila_lib_0.vhd:64]
+INFO: [Synth 8-256] done synthesizing module 'bd_6c1d' (47#1) [/home/seba/documents/hepia/lora/lora_host_work/counter_PPS/counter_PPS.srcs/sources_1/bd/sync_counter_PPS/ip/sync_counter_PPS_system_ila_0/bd_0/hdl/bd_6c1d.vhd:27]
+INFO: [Synth 8-256] done synthesizing module 'sync_counter_PPS_system_ila_0' (48#1) [/home/seba/documents/hepia/lora/lora_host_work/counter_PPS/counter_PPS.srcs/sources_1/bd/sync_counter_PPS/ip/sync_counter_PPS_system_ila_0/synth/sync_counter_PPS_system_ila_0.vhd:65]
+Finished RTL Elaboration : Time (s): cpu = 00:00:59 ; elapsed = 00:01:00 . Memory (MB): peak = 1486.031 ; gain = 558.820 ; free physical = 1029 ; free virtual = 10168
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:59 ; elapsed = 00:01:00 . Memory (MB): peak = 1486.031 ; gain = 558.820 ; free physical = 1028 ; free virtual = 10167
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.07 ; elapsed = 00:00:00.07 . Memory (MB): peak = 1651.406 ; gain = 0.000 ; free physical = 1026 ; free virtual = 10165
+Finished Constraint Validation : Time (s): cpu = 00:01:09 ; elapsed = 00:01:09 . Memory (MB): peak = 1651.406 ; gain = 724.195 ; free physical = 1025 ; free virtual = 10164
+Finished Loading Part and Timing Information : Time (s): cpu = 00:01:09 ; elapsed = 00:01:09 . Memory (MB): peak = 1651.406 ; gain = 724.195 ; free physical = 1025 ; free virtual = 10164
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:09 ; elapsed = 00:01:10 . Memory (MB): peak = 1651.406 ; gain = 724.195 ; free physical = 1025 ; free virtual = 10164
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:11 ; elapsed = 00:01:11 . Memory (MB): peak = 1651.406 ; gain = 724.195 ; free physical = 1012 ; free virtual = 10151
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:15 ; elapsed = 00:01:16 . Memory (MB): peak = 1651.406 ; gain = 724.195 ; free physical = 987 ; free virtual = 10126
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:23 ; elapsed = 00:01:24 . Memory (MB): peak = 1651.406 ; gain = 724.195 ; free physical = 948 ; free virtual = 10121
+Finished Timing Optimization : Time (s): cpu = 00:01:23 ; elapsed = 00:01:24 . Memory (MB): peak = 1651.406 ; gain = 724.195 ; free physical = 948 ; free virtual = 10121
+Finished Technology Mapping : Time (s): cpu = 00:01:24 ; elapsed = 00:01:24 . Memory (MB): peak = 1651.406 ; gain = 724.195 ; free physical = 955 ; free virtual = 10120
+Finished IO Insertion : Time (s): cpu = 00:01:24 ; elapsed = 00:01:25 . Memory (MB): peak = 1651.406 ; gain = 724.195 ; free physical = 956 ; free virtual = 10121
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:24 ; elapsed = 00:01:25 . Memory (MB): peak = 1651.406 ; gain = 724.195 ; free physical = 956 ; free virtual = 10121
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:24 ; elapsed = 00:01:25 . Memory (MB): peak = 1651.406 ; gain = 724.195 ; free physical = 956 ; free virtual = 10121
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:24 ; elapsed = 00:01:25 . Memory (MB): peak = 1651.406 ; gain = 724.195 ; free physical = 956 ; free virtual = 10121
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:24 ; elapsed = 00:01:25 . Memory (MB): peak = 1651.406 ; gain = 724.195 ; free physical = 956 ; free virtual = 10121
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:24 ; elapsed = 00:01:25 . Memory (MB): peak = 1651.406 ; gain = 724.195 ; free physical = 956 ; free virtual = 10121
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |CARRY4   |    17|
+|2     |CFGLUT5  |    47|
+|3     |LUT1     |    13|
+|4     |LUT2     |    46|
+|5     |LUT3     |    69|
+|6     |LUT4     |    92|
+|7     |LUT5     |   106|
+|8     |LUT6     |   291|
+|9     |MUXF7    |     5|
+|10    |RAMB18E1 |     1|
+|11    |SRL16E   |     8|
+|12    |SRLC16E  |     2|
+|13    |SRLC32E  |    17|
+|14    |FDRE     |   885|
+|15    |FDSE     |     9|
++------+---------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:24 ; elapsed = 00:01:25 . Memory (MB): peak = 1651.406 ; gain = 724.195 ; free physical = 956 ; free virtual = 10121
+synth_design: Time (s): cpu = 00:01:20 ; elapsed = 00:01:20 . Memory (MB): peak = 1651.406 ; gain = 562.770 ; free physical = 933 ; free virtual = 10124

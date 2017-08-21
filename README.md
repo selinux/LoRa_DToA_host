@@ -24,6 +24,11 @@ Projet Xilinx vivado pour le compteur
 
 Projet Xilinx vivado pour l'emulateur PPS et event
 
+
+* env_variables.sh
+
+Variables d'environnements
+
 ### Code source USRP (detection et API)
 
 * [lien vers le code uhd (fork de l'API USRP)](https://github.com/selinux/uhd)

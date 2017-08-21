@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:19 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Sat Jul  1 18:02:52 2017
+# Process ID: 19406
+# Current directory: /home/seba/documents/hepia/lora/counter_PPS/counter_PPS.runs/sync_counter_PPS_counter_pps_0_0_synth_1
+# Command line: vivado -log sync_counter_PPS_counter_pps_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source sync_counter_PPS_counter_pps_0_0.tcl
+# Log file: /home/seba/documents/hepia/lora/counter_PPS/counter_PPS.runs/sync_counter_PPS_counter_pps_0_0_synth_1/sync_counter_PPS_counter_pps_0_0.vds
+# Journal file: /home/seba/documents/hepia/lora/counter_PPS/counter_PPS.runs/sync_counter_PPS_counter_pps_0_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source sync_counter_PPS_counter_pps_0_0.tcl -notrace

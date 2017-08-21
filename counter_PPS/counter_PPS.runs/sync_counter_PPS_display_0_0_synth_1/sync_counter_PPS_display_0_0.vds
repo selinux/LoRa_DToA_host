@@ -1,0 +1,335 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:19 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Sat Jul 15 11:37:11 2017
+# Process ID: 16441
+# Current directory: /home/seba/documents/hepia/lora.baki7/lora_host_work/counter_PPS/counter_PPS.runs/sync_counter_PPS_display_0_0_synth_1
+# Command line: vivado -log sync_counter_PPS_display_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source sync_counter_PPS_display_0_0.tcl
+# Log file: /home/seba/documents/hepia/lora.baki7/lora_host_work/counter_PPS/counter_PPS.runs/sync_counter_PPS_display_0_0_synth_1/sync_counter_PPS_display_0_0.vds
+# Journal file: /home/seba/documents/hepia/lora.baki7/lora_host_work/counter_PPS/counter_PPS.runs/sync_counter_PPS_display_0_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source sync_counter_PPS_display_0_0.tcl -notrace
+Command: synth_design -top sync_counter_PPS_display_0_0 -part xc7a35tcpg236-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 16451 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1127.285 ; gain = 200.086 ; free physical = 194 ; free virtual = 13547
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'sync_counter_PPS_display_0_0' [/home/seba/documents/hepia/lora.baki7/lora_host_work/counter_PPS/counter_PPS.srcs/sources_1/bd/sync_counter_PPS/ip/sync_counter_PPS_display_0_0/synth/sync_counter_PPS_display_0_0.vhd:67]
+INFO: [Synth 8-3491] module 'display' declared at '/home/seba/documents/hepia/lora.baki7/lora_host_work/counter_PPS/display_counter.vhd:27' bound to instance 'U0' of component 'display' [/home/seba/documents/hepia/lora.baki7/lora_host_work/counter_PPS/counter_PPS.srcs/sources_1/bd/sync_counter_PPS/ip/sync_counter_PPS_display_0_0/synth/sync_counter_PPS_display_0_0.vhd:88]
+INFO: [Synth 8-638] synthesizing module 'display' [/home/seba/documents/hepia/lora.baki7/lora_host_work/counter_PPS/display_counter.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'display' (1#1) [/home/seba/documents/hepia/lora.baki7/lora_host_work/counter_PPS/display_counter.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'sync_counter_PPS_display_0_0' (2#1) [/home/seba/documents/hepia/lora.baki7/lora_host_work/counter_PPS/counter_PPS.srcs/sources_1/bd/sync_counter_PPS/ip/sync_counter_PPS_display_0_0/synth/sync_counter_PPS_display_0_0.vhd:67]
+WARNING: [Synth 8-3331] design display has unconnected port sec[63]
+WARNING: [Synth 8-3331] design display has unconnected port sec[62]
+WARNING: [Synth 8-3331] design display has unconnected port sec[61]
+WARNING: [Synth 8-3331] design display has unconnected port sec[60]
+WARNING: [Synth 8-3331] design display has unconnected port sec[59]
+WARNING: [Synth 8-3331] design display has unconnected port sec[58]
+WARNING: [Synth 8-3331] design display has unconnected port sec[57]
+WARNING: [Synth 8-3331] design display has unconnected port sec[56]
+WARNING: [Synth 8-3331] design display has unconnected port sec[55]
+WARNING: [Synth 8-3331] design display has unconnected port sec[54]
+WARNING: [Synth 8-3331] design display has unconnected port sec[53]
+WARNING: [Synth 8-3331] design display has unconnected port sec[52]
+WARNING: [Synth 8-3331] design display has unconnected port sec[51]
+WARNING: [Synth 8-3331] design display has unconnected port sec[50]
+WARNING: [Synth 8-3331] design display has unconnected port sec[49]
+WARNING: [Synth 8-3331] design display has unconnected port sec[48]
+WARNING: [Synth 8-3331] design display has unconnected port sec[31]
+WARNING: [Synth 8-3331] design display has unconnected port sec[30]
+WARNING: [Synth 8-3331] design display has unconnected port sec[29]
+WARNING: [Synth 8-3331] design display has unconnected port sec[28]
+WARNING: [Synth 8-3331] design display has unconnected port sec[27]
+WARNING: [Synth 8-3331] design display has unconnected port sec[26]
+WARNING: [Synth 8-3331] design display has unconnected port sec[25]
+WARNING: [Synth 8-3331] design display has unconnected port sec[24]
+WARNING: [Synth 8-3331] design display has unconnected port sec[23]
+WARNING: [Synth 8-3331] design display has unconnected port sec[22]
+WARNING: [Synth 8-3331] design display has unconnected port sec[21]
+WARNING: [Synth 8-3331] design display has unconnected port sec[20]
+WARNING: [Synth 8-3331] design display has unconnected port sec[19]
+WARNING: [Synth 8-3331] design display has unconnected port sec[18]
+WARNING: [Synth 8-3331] design display has unconnected port sec[17]
+WARNING: [Synth 8-3331] design display has unconnected port sec[16]
+WARNING: [Synth 8-3331] design display has unconnected port sec[15]
+WARNING: [Synth 8-3331] design display has unconnected port sec[14]
+WARNING: [Synth 8-3331] design display has unconnected port sec[13]
+WARNING: [Synth 8-3331] design display has unconnected port sec[12]
+WARNING: [Synth 8-3331] design display has unconnected port sec[11]
+WARNING: [Synth 8-3331] design display has unconnected port sec[10]
+WARNING: [Synth 8-3331] design display has unconnected port sec[9]
+WARNING: [Synth 8-3331] design display has unconnected port sec[8]
+WARNING: [Synth 8-3331] design display has unconnected port sec[7]
+WARNING: [Synth 8-3331] design display has unconnected port sec[6]
+WARNING: [Synth 8-3331] design display has unconnected port sec[5]
+WARNING: [Synth 8-3331] design display has unconnected port sec[4]
+WARNING: [Synth 8-3331] design display has unconnected port sec[3]
+WARNING: [Synth 8-3331] design display has unconnected port sec[2]
+WARNING: [Synth 8-3331] design display has unconnected port sec[1]
+WARNING: [Synth 8-3331] design display has unconnected port sec[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1168.754 ; gain = 241.555 ; free physical = 149 ; free virtual = 13503
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1168.754 ; gain = 241.555 ; free physical = 241 ; free virtual = 13513
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1512.223 ; gain = 0.000 ; free physical = 163 ; free virtual = 13465
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1512.223 ; gain = 585.023 ; free physical = 315 ; free virtual = 13596
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1512.223 ; gain = 585.023 ; free physical = 315 ; free virtual = 13596
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1512.223 ; gain = 585.023 ; free physical = 315 ; free virtual = 13596
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "anodes" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "anodes" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "anodes" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "anodes" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1512.223 ; gain = 585.023 ; free physical = 302 ; free virtual = 13582
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	                7 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   4 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module display 
+Detailed RTL Component Info : 
++---Registers : 
+	                7 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   4 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3331] design sync_counter_PPS_display_0_0 has unconnected port sec[63]
+WARNING: [Synth 8-3331] design sync_counter_PPS_display_0_0 has unconnected port sec[62]
+WARNING: [Synth 8-3331] design sync_counter_PPS_display_0_0 has unconnected port sec[61]
+WARNING: [Synth 8-3331] design sync_counter_PPS_display_0_0 has unconnected port sec[60]
+WARNING: [Synth 8-3331] design sync_counter_PPS_display_0_0 has unconnected port sec[59]
+WARNING: [Synth 8-3331] design sync_counter_PPS_display_0_0 has unconnected port sec[58]
+WARNING: [Synth 8-3331] design sync_counter_PPS_display_0_0 has unconnected port sec[57]
+WARNING: [Synth 8-3331] design sync_counter_PPS_display_0_0 has unconnected port sec[56]
+WARNING: [Synth 8-3331] design sync_counter_PPS_display_0_0 has unconnected port sec[55]
+WARNING: [Synth 8-3331] design sync_counter_PPS_display_0_0 has unconnected port sec[54]
+WARNING: [Synth 8-3331] design sync_counter_PPS_display_0_0 has unconnected port sec[53]
+WARNING: [Synth 8-3331] design sync_counter_PPS_display_0_0 has unconnected port sec[52]
+WARNING: [Synth 8-3331] design sync_counter_PPS_display_0_0 has unconnected port sec[51]
+WARNING: [Synth 8-3331] design sync_counter_PPS_display_0_0 has unconnected port sec[50]
+WARNING: [Synth 8-3331] design sync_counter_PPS_display_0_0 has unconnected port sec[49]
+WARNING: [Synth 8-3331] design sync_counter_PPS_display_0_0 has unconnected port sec[48]
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1512.223 ; gain = 585.023 ; free physical = 293 ; free virtual = 13574
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1512.223 ; gain = 585.023 ; free physical = 240 ; free virtual = 13529
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1512.223 ; gain = 585.023 ; free physical = 240 ; free virtual = 13529
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1512.223 ; gain = 585.023 ; free physical = 222 ; free virtual = 13511
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1512.223 ; gain = 585.023 ; free physical = 222 ; free virtual = 13510
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1512.223 ; gain = 585.023 ; free physical = 222 ; free virtual = 13510
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1512.223 ; gain = 585.023 ; free physical = 222 ; free virtual = 13510
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1512.223 ; gain = 585.023 ; free physical = 222 ; free virtual = 13510
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1512.223 ; gain = 585.023 ; free physical = 221 ; free virtual = 13510
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1512.223 ; gain = 585.023 ; free physical = 221 ; free virtual = 13510
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |     6|
+|2     |LUT1   |    22|
+|3     |LUT2   |     4|
+|4     |LUT4   |     7|
+|5     |LUT6   |     4|
+|6     |FDPE   |     4|
+|7     |FDRE   |    28|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------+--------+------+
+|      |Instance |Module  |Cells |
++------+---------+--------+------+
+|1     |top      |        |    75|
+|2     |  U0     |display |    75|
++------+---------+--------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1512.223 ; gain = 585.023 ; free physical = 221 ; free virtual = 13510
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 16 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1512.223 ; gain = 117.465 ; free physical = 221 ; free virtual = 13510
+Synthesis Optimization Complete : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1512.223 ; gain = 585.023 ; free physical = 221 ; free virtual = 13510
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 6 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+24 Infos, 64 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 1520.230 ; gain = 481.527 ; free physical = 223 ; free virtual = 13512
+INFO: [Common 17-1381] The checkpoint '/home/seba/documents/hepia/lora.baki7/lora_host_work/counter_PPS/counter_PPS.runs/sync_counter_PPS_display_0_0_synth_1/sync_counter_PPS_display_0_0.dcp' has been generated.
+INFO: [Common 17-1381] The checkpoint '/home/seba/documents/hepia/lora.baki7/lora_host_work/counter_PPS/counter_PPS.runs/sync_counter_PPS_display_0_0_synth_1/sync_counter_PPS_display_0_0.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.05 . Memory (MB): peak = 1544.242 ; gain = 0.000 ; free physical = 219 ; free virtual = 13508
+INFO: [Common 17-206] Exiting Vivado at Sat Jul 15 11:37:39 2017...

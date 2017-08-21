@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="sync_counter_PPS_clk_wiz_0_0_synth_1" LaunchDir="/home/seba/documents/hepia/lora/counter_PPS/counter_PPS.runs/sync_counter_PPS_clk_wiz_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="sync_counter_PPS_counter_pps_0_0_synth_1" LaunchDir="/home/seba/documents/hepia/lora/counter_PPS/counter_PPS.runs/sync_counter_PPS_counter_pps_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="sync_counter_PPS_gen_event_trigger_0_0_synth_1" LaunchDir="/home/seba/documents/hepia/lora/counter_PPS/counter_PPS.runs/sync_counter_PPS_gen_event_trigger_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="/home/seba/documents/hepia/lora/counter_PPS/counter_PPS.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="sync_counter_PPS_clk_wiz_0_0_synth_1"/>
+		<Parent Id="sync_counter_PPS_counter_pps_0_0_synth_1"/>
+		<Parent Id="sync_counter_PPS_gen_event_trigger_0_0_synth_1"/>
+	</Run>
+</Runs>
+

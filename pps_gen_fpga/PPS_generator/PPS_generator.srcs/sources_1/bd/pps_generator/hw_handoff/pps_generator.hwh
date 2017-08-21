@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Mon Jul  3 16:54:10 2017" VIVADOVERSION="2016.4">
+
+  <SYSTEMINFO ARCH="artix7" BOARD="digilentinc.com:basys3:part0:1.1" DEVICE="7a35t" NAME="pps_generator" PACKAGE="cpg236" SPEEDGRADE="-1"/>
+
+  <EXTERNALPORTS>
+    <PORT DIR="I" NAME="btnC" SIGIS="rst" SIGNAME="External_Ports_btnC">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="pps_counter_100mhz_0" PORT="rst"/>
+        <CONNECTION INSTANCE="gen_event_trigger_0" PORT="rst"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="pps_counter_100mhz_0" PORT="clk"/>
+        <CONNECTION INSTANCE="gen_event_trigger_0" PORT="clk"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" LEFT="7" NAME="sw" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_sw">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="pps_counter_100mhz_0" PORT="jumper_i"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="7" NAME="JA" RIGHT="0" SIGIS="undef" SIGNAME="pps_counter_100mhz_0_pps_o">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="pps_counter_100mhz_0" PORT="pps_o"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="7" NAME="led" RIGHT="0" SIGIS="undef" SIGNAME="pps_counter_100mhz_0_led_o">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="pps_counter_100mhz_0" PORT="led_o"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="0" NAME="JB6" RIGHT="0" SIGIS="undef" SIGNAME="gen_event_trigger_0_trigger_o">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="gen_event_trigger_0" PORT="trigger_o"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="0" NAME="JB5" RIGHT="0" SIGIS="undef" SIGNAME="gen_event_trigger_0_trigger_o">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="gen_event_trigger_0" PORT="trigger_o"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="0" NAME="JB3" RIGHT="0" SIGIS="undef" SIGNAME="gen_event_trigger_0_trigger_o">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="gen_event_trigger_0" PORT="trigger_o"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="0" NAME="JB4" RIGHT="0" SIGIS="undef" SIGNAME="gen_event_trigger_0_trigger_o">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="gen_event_trigger_0" PORT="trigger_o"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="0" NAME="JB7" RIGHT="0" SIGIS="undef" SIGNAME="gen_event_trigger_0_trigger_o">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="gen_event_trigger_0" PORT="trigger_o"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="0" NAME="led10" RIGHT="0" SIGIS="undef" SIGNAME="gen_event_trigger_0_trigger_o">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="gen_event_trigger_0" PORT="trigger_o"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="0" NAME="led11" RIGHT="0" SIGIS="undef" SIGNAME="gen_event_trigger_0_trigger_o">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="gen_event_trigger_0" PORT="trigger_o"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="0" NAME="JB0" RIGHT="0" SIGIS="undef" SIGNAME="gen_event_trigger_0_trigger_o">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="gen_event_trigger_0" PORT="trigger_o"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="0" NAME="JB2" RIGHT="0" SIGIS="undef" SIGNAME="gen_event_trigger_0_trigger_o">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="gen_event_trigger_0" PORT="trigger_o"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="0" NAME="JB1" RIGHT="0" SIGIS="undef" SIGNAME="gen_event_trigger_0_trigger_o">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="gen_event_trigger_0" PORT="trigger_o"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="btnD" SIGIS="undef" SIGNAME="External_Ports_btnD">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="util_vector_logic_2" PORT="Op1"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="btnU" SIGIS="undef" SIGNAME="External_Ports_btnU">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="util_vector_logic_2" PORT="Op2"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="btnL" SIGIS="undef" SIGNAME="External_Ports_btnL">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="util_vector_logic_1" PORT="Op1"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="btnR" SIGIS="undef" SIGNAME="External_Ports_btnR">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="util_vector_logic_1" PORT="Op2"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE FULLNAME="/gen_event_trigger_0" HWVERSION="1.0" INSTANCE="gen_event_trigger_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="gen_event_trigger" VLNV="user.org:module_ref:gen_event_trigger:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="pps_generator_gen_event_trigger_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="rst" SIGIS="rst" SIGNAME="External_Ports_btnC">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="btnC"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="trigger_i" SIGIS="undef" SIGNAME="util_vector_logic_0_Res">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="util_vector_logic_0" PORT="Res"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="trigger_o" SIGIS="undef" SIGNAME="gen_event_trigger_0_trigger_o">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="JB1"/>
+            <CONNECTION INSTANCE="External_Ports" PORT="JB2"/>
+            <CONNECTION INSTANCE="External_Ports" PORT="JB0"/>
+            <CONNECTION INSTANCE="External_Ports" PORT="led11"/>
+            <CONNECTION INSTANCE="External_Ports" PORT="led10"/>
+            <CONNECTION INSTANCE="External_Ports" PORT="JB7"/>
+            <CONNECTION INSTANCE="External_Ports" PORT="JB4"/>
+            <CONNECTION INSTANCE="External_Ports" PORT="JB3"/>
+            <CONNECTION INSTANCE="External_Ports" PORT="JB5"/>
+            <CONNECTION INSTANCE="External_Ports" PORT="JB6"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/pps_counter_100mhz_0" HWVERSION="1.0" INSTANCE="pps_counter_100mhz_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="pps_counter_100mhz" VLNV="user.org:module_ref:pps_counter_100mhz:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="MAX_TICKS" VALUE="100000000"/>
+        <PARAMETER NAME="LED_LEN" VALUE="10000000"/>
+        <PARAMETER NAME="PULSE_LEN" VALUE="400000"/>
+        <PARAMETER NAME="Component_Name" VALUE="pps_generator_pps_counter_100mhz_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="rst" SIGIS="rst" SIGNAME="External_Ports_btnC">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="btnC"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="7" NAME="jumper_i" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_sw">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="sw"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="7" NAME="led_o" RIGHT="0" SIGIS="undef" SIGNAME="pps_counter_100mhz_0_led_o">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="led"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="7" NAME="pps_o" RIGHT="0" SIGIS="undef" SIGNAME="pps_counter_100mhz_0_pps_o">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="JA"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/util_vector_logic_0" HWVERSION="2.0" INSTANCE="util_vector_logic_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="util_vector_logic" VLNV="xilinx.com:ip:util_vector_logic:2.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="C_OPERATION" VALUE="or"/>
+        <PARAMETER NAME="C_SIZE" VALUE="1"/>
+        <PARAMETER NAME="Component_Name" VALUE="pps_generator_util_vector_logic_0_0"/>
+        <PARAMETER NAME="LOGO_FILE" VALUE="data/sym_orgate.png"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="0" NAME="Op1" RIGHT="0" SIGIS="undef" SIGNAME="util_vector_logic_2_Res">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="util_vector_logic_2" PORT="Res"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="Op2" RIGHT="0" SIGIS="undef" SIGNAME="util_vector_logic_1_Res">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="util_vector_logic_1" PORT="Res"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="0" NAME="Res" RIGHT="0" SIGIS="undef" SIGNAME="util_vector_logic_0_Res">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="gen_event_trigger_0" PORT="trigger_i"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/util_vector_logic_1" HWVERSION="2.0" INSTANCE="util_vector_logic_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="util_vector_logic" VLNV="xilinx.com:ip:util_vector_logic:2.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="C_OPERATION" VALUE="or"/>
+        <PARAMETER NAME="C_SIZE" VALUE="1"/>
+        <PARAMETER NAME="Component_Name" VALUE="pps_generator_util_vector_logic_0_1"/>
+        <PARAMETER NAME="LOGO_FILE" VALUE="data/sym_orgate.png"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="0" NAME="Op1" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_btnL">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="btnL"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="Op2" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_btnR">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="btnR"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="0" NAME="Res" RIGHT="0" SIGIS="undef" SIGNAME="util_vector_logic_1_Res">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="util_vector_logic_0" PORT="Op2"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/util_vector_logic_2" HWVERSION="2.0" INSTANCE="util_vector_logic_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="util_vector_logic" VLNV="xilinx.com:ip:util_vector_logic:2.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="C_OPERATION" VALUE="or"/>
+        <PARAMETER NAME="C_SIZE" VALUE="1"/>
+        <PARAMETER NAME="Component_Name" VALUE="pps_generator_util_vector_logic_1_0"/>
+        <PARAMETER NAME="LOGO_FILE" VALUE="data/sym_orgate.png"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="0" NAME="Op1" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_btnD">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="btnD"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="Op2" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_btnU">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="btnU"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="0" NAME="Res" RIGHT="0" SIGIS="undef" SIGNAME="util_vector_logic_2_Res">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="util_vector_logic_0" PORT="Op1"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>

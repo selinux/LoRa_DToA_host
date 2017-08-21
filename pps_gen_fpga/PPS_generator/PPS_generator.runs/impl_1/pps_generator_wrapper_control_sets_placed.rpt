@@ -1,0 +1,64 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.4 (lin64) Build 1756540 Mon Jan 23 19:11:19 MST 2017
+| Date         : Mon Jul  3 16:55:22 2017
+| Host         : t440p running 64-bit Arch Linux
+| Command      : report_control_sets -verbose -file pps_generator_wrapper_control_sets_placed.rpt
+| Design       : pps_generator_wrapper
+| Device       : xc7a35t
+--------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |     3 |
+| Unused register locations in slices containing registers |     9 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               0 |            0 |
+| No           | No                    | Yes                    |              11 |            4 |
+| No           | Yes                   | No                     |              28 |            7 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              32 |            8 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++----------------+-----------------------------------------------------------------+-----------------------------------------------------------------+------------------+----------------+
+|  Clock Signal  |                          Enable Signal                          |                         Set/Reset Signal                        | Slice Load Count | Bel Load Count |
++----------------+-----------------------------------------------------------------+-----------------------------------------------------------------+------------------+----------------+
+|  clk_IBUF_BUFG |                                                                 | btnC_IBUF                                                       |                4 |             11 |
+|  clk_IBUF_BUFG |                                                                 | pps_generator_i/pps_counter_100mhz_0/U0/counter[0]_i_1_n_0      |                7 |             28 |
+|  clk_IBUF_BUFG | pps_generator_i/gen_event_trigger_0/U0/pulse_counter[0]_i_2_n_0 | pps_generator_i/gen_event_trigger_0/U0/pulse_counter[0]_i_1_n_0 |                8 |             32 |
++----------------+-----------------------------------------------------------------+-----------------------------------------------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 11     |                     1 |
+| 16+    |                     2 |
++--------+-----------------------+
+
+

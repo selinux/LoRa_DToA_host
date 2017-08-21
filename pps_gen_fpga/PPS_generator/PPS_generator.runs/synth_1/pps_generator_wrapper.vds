@@ -1,0 +1,304 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:19 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Mon Jul  3 16:54:34 2017
+# Process ID: 25493
+# Current directory: /home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.runs/synth_1
+# Command line: vivado -log pps_generator_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source pps_generator_wrapper.tcl
+# Log file: /home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.runs/synth_1/pps_generator_wrapper.vds
+# Journal file: /home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source pps_generator_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2016.4/data/ip'.
+Command: synth_design -top pps_generator_wrapper -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 25500 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1072.289 ; gain = 145.086 ; free physical = 3701 ; free virtual = 13168
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'pps_generator_wrapper' [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/sources_1/bd/pps_generator/hdl/pps_generator_wrapper.vhd:38]
+INFO: [Synth 8-3491] module 'pps_generator' declared at '/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/sources_1/bd/pps_generator/hdl/pps_generator.vhd:14' bound to instance 'pps_generator_i' of component 'pps_generator' [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/sources_1/bd/pps_generator/hdl/pps_generator_wrapper.vhd:63]
+INFO: [Synth 8-638] synthesizing module 'pps_generator' [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/sources_1/bd/pps_generator/hdl/pps_generator.vhd:42]
+INFO: [Synth 8-3491] module 'pps_generator_gen_event_trigger_0_0' declared at '/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.runs/synth_1/.Xil/Vivado-25493-t440p/realtime/pps_generator_gen_event_trigger_0_0_stub.vhdl:5' bound to instance 'gen_event_trigger_0' of component 'pps_generator_gen_event_trigger_0_0' [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/sources_1/bd/pps_generator/hdl/pps_generator.vhd:114]
+INFO: [Synth 8-638] synthesizing module 'pps_generator_gen_event_trigger_0_0' [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.runs/synth_1/.Xil/Vivado-25493-t440p/realtime/pps_generator_gen_event_trigger_0_0_stub.vhdl:15]
+INFO: [Synth 8-3491] module 'pps_generator_pps_counter_100mhz_0_0' declared at '/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.runs/synth_1/.Xil/Vivado-25493-t440p/realtime/pps_generator_pps_counter_100mhz_0_0_stub.vhdl:5' bound to instance 'pps_counter_100mhz_0' of component 'pps_generator_pps_counter_100mhz_0_0' [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/sources_1/bd/pps_generator/hdl/pps_generator.vhd:121]
+INFO: [Synth 8-638] synthesizing module 'pps_generator_pps_counter_100mhz_0_0' [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.runs/synth_1/.Xil/Vivado-25493-t440p/realtime/pps_generator_pps_counter_100mhz_0_0_stub.vhdl:16]
+INFO: [Synth 8-3491] module 'pps_generator_util_vector_logic_0_0' declared at '/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.runs/synth_1/.Xil/Vivado-25493-t440p/realtime/pps_generator_util_vector_logic_0_0_stub.vhdl:5' bound to instance 'util_vector_logic_0' of component 'pps_generator_util_vector_logic_0_0' [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/sources_1/bd/pps_generator/hdl/pps_generator.vhd:129]
+INFO: [Synth 8-638] synthesizing module 'pps_generator_util_vector_logic_0_0' [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.runs/synth_1/.Xil/Vivado-25493-t440p/realtime/pps_generator_util_vector_logic_0_0_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'pps_generator_util_vector_logic_0_1' declared at '/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.runs/synth_1/.Xil/Vivado-25493-t440p/realtime/pps_generator_util_vector_logic_0_1_stub.vhdl:5' bound to instance 'util_vector_logic_1' of component 'pps_generator_util_vector_logic_0_1' [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/sources_1/bd/pps_generator/hdl/pps_generator.vhd:135]
+INFO: [Synth 8-638] synthesizing module 'pps_generator_util_vector_logic_0_1' [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.runs/synth_1/.Xil/Vivado-25493-t440p/realtime/pps_generator_util_vector_logic_0_1_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'pps_generator_util_vector_logic_1_0' declared at '/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.runs/synth_1/.Xil/Vivado-25493-t440p/realtime/pps_generator_util_vector_logic_1_0_stub.vhdl:5' bound to instance 'util_vector_logic_2' of component 'pps_generator_util_vector_logic_1_0' [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/sources_1/bd/pps_generator/hdl/pps_generator.vhd:141]
+INFO: [Synth 8-638] synthesizing module 'pps_generator_util_vector_logic_1_0' [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.runs/synth_1/.Xil/Vivado-25493-t440p/realtime/pps_generator_util_vector_logic_1_0_stub.vhdl:14]
+INFO: [Synth 8-256] done synthesizing module 'pps_generator' (1#1) [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/sources_1/bd/pps_generator/hdl/pps_generator.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'pps_generator_wrapper' (2#1) [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/sources_1/bd/pps_generator/hdl/pps_generator_wrapper.vhd:38]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1113.758 ; gain = 186.555 ; free physical = 3710 ; free virtual = 13187
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1113.758 ; gain = 186.555 ; free physical = 3710 ; free virtual = 13187
+---------------------------------------------------------------------------------
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'pps_generator_gen_event_trigger_0_0' instantiated as 'pps_generator_i/gen_event_trigger_0' [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/sources_1/bd/pps_generator/hdl/pps_generator.vhd:114]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'pps_generator_pps_counter_100mhz_0_0' instantiated as 'pps_generator_i/pps_counter_100mhz_0' [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/sources_1/bd/pps_generator/hdl/pps_generator.vhd:121]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'pps_generator_util_vector_logic_0_0' instantiated as 'pps_generator_i/util_vector_logic_0' [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/sources_1/bd/pps_generator/hdl/pps_generator.vhd:129]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'pps_generator_util_vector_logic_0_1' instantiated as 'pps_generator_i/util_vector_logic_1' [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/sources_1/bd/pps_generator/hdl/pps_generator.vhd:135]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'pps_generator_util_vector_logic_1_0' instantiated as 'pps_generator_i/util_vector_logic_2' [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/sources_1/bd/pps_generator/hdl/pps_generator.vhd:141]
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.runs/synth_1/.Xil/Vivado-25493-t440p/dcp/pps_generator_pps_counter_100mhz_0_0_in_context.xdc] for cell 'pps_generator_i/pps_counter_100mhz_0'
+Finished Parsing XDC File [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.runs/synth_1/.Xil/Vivado-25493-t440p/dcp/pps_generator_pps_counter_100mhz_0_0_in_context.xdc] for cell 'pps_generator_i/pps_counter_100mhz_0'
+Parsing XDC File [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.runs/synth_1/.Xil/Vivado-25493-t440p/dcp_2/pps_generator_util_vector_logic_0_0_in_context.xdc] for cell 'pps_generator_i/util_vector_logic_0'
+Finished Parsing XDC File [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.runs/synth_1/.Xil/Vivado-25493-t440p/dcp_2/pps_generator_util_vector_logic_0_0_in_context.xdc] for cell 'pps_generator_i/util_vector_logic_0'
+Parsing XDC File [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.runs/synth_1/.Xil/Vivado-25493-t440p/dcp_3/pps_generator_util_vector_logic_0_1_in_context.xdc] for cell 'pps_generator_i/util_vector_logic_1'
+Finished Parsing XDC File [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.runs/synth_1/.Xil/Vivado-25493-t440p/dcp_3/pps_generator_util_vector_logic_0_1_in_context.xdc] for cell 'pps_generator_i/util_vector_logic_1'
+Parsing XDC File [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.runs/synth_1/.Xil/Vivado-25493-t440p/dcp_4/pps_generator_util_vector_logic_1_0_in_context.xdc] for cell 'pps_generator_i/util_vector_logic_2'
+Finished Parsing XDC File [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.runs/synth_1/.Xil/Vivado-25493-t440p/dcp_4/pps_generator_util_vector_logic_1_0_in_context.xdc] for cell 'pps_generator_i/util_vector_logic_2'
+Parsing XDC File [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.runs/synth_1/.Xil/Vivado-25493-t440p/dcp_5/pps_generator_gen_event_trigger_0_0_in_context.xdc] for cell 'pps_generator_i/gen_event_trigger_0'
+Finished Parsing XDC File [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.runs/synth_1/.Xil/Vivado-25493-t440p/dcp_5/pps_generator_gen_event_trigger_0_0_in_context.xdc] for cell 'pps_generator_i/gen_event_trigger_0'
+Parsing XDC File [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc]
+CRITICAL WARNING: [Designutils 20-1307] Command 'Sch' is not supported in the xdc constraint file. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:128]
+CRITICAL WARNING: [Designutils 20-1307] Command 'Sch' is not supported in the xdc constraint file. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:131]
+CRITICAL WARNING: [Designutils 20-1307] Command 'Sch' is not supported in the xdc constraint file. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:134]
+CRITICAL WARNING: [Designutils 20-1307] Command 'Sch' is not supported in the xdc constraint file. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:137]
+CRITICAL WARNING: [Designutils 20-1307] Command 'Sch' is not supported in the xdc constraint file. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:140]
+CRITICAL WARNING: [Designutils 20-1307] Command 'Sch' is not supported in the xdc constraint file. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:143]
+CRITICAL WARNING: [Designutils 20-1307] Command 'Sch' is not supported in the xdc constraint file. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:146]
+Finished Parsing XDC File [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/pps_generator_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/pps_generator_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1428.758 ; gain = 0.000 ; free physical = 3537 ; free virtual = 13015
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1428.758 ; gain = 501.555 ; free physical = 3545 ; free virtual = 13016
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1428.758 ; gain = 501.555 ; free physical = 3545 ; free virtual = 13016
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for pps_generator_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for pps_generator_i/gen_event_trigger_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for pps_generator_i/pps_counter_100mhz_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for pps_generator_i/util_vector_logic_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for pps_generator_i/util_vector_logic_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for pps_generator_i/util_vector_logic_2. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1428.758 ; gain = 501.555 ; free physical = 3545 ; free virtual = 13016
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1428.758 ; gain = 501.555 ; free physical = 3545 ; free virtual = 13016
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1428.758 ; gain = 501.555 ; free physical = 3543 ; free virtual = 13014
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 1428.758 ; gain = 501.555 ; free physical = 3464 ; free virtual = 12934
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 1428.758 ; gain = 501.555 ; free physical = 3464 ; free virtual = 12934
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 1428.758 ; gain = 501.555 ; free physical = 3455 ; free virtual = 12925
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1428.758 ; gain = 501.555 ; free physical = 3481 ; free virtual = 12952
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1428.758 ; gain = 501.555 ; free physical = 3481 ; free virtual = 12952
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1428.758 ; gain = 501.555 ; free physical = 3481 ; free virtual = 12952
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1428.758 ; gain = 501.555 ; free physical = 3481 ; free virtual = 12952
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1428.758 ; gain = 501.555 ; free physical = 3477 ; free virtual = 12951
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1428.758 ; gain = 501.555 ; free physical = 3477 ; free virtual = 12951
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+-------------------------------------+----------+
+|      |BlackBox name                        |Instances |
++------+-------------------------------------+----------+
+|1     |pps_generator_gen_event_trigger_0_0  |         1|
+|2     |pps_generator_pps_counter_100mhz_0_0 |         1|
+|3     |pps_generator_util_vector_logic_0_0  |         1|
+|4     |pps_generator_util_vector_logic_0_1  |         1|
+|5     |pps_generator_util_vector_logic_1_0  |         1|
++------+-------------------------------------+----------+
+
+Report Cell Usage: 
++------+------------------------------------------+------+
+|      |Cell                                      |Count |
++------+------------------------------------------+------+
+|1     |pps_generator_gen_event_trigger_0_0_bbox  |     1|
+|2     |pps_generator_pps_counter_100mhz_0_0_bbox |     1|
+|3     |pps_generator_util_vector_logic_0_0_bbox  |     1|
+|4     |pps_generator_util_vector_logic_0_1_bbox  |     1|
+|5     |pps_generator_util_vector_logic_1_0_bbox  |     1|
+|6     |IBUF                                      |    14|
+|7     |OBUF                                      |    26|
++------+------------------------------------------+------+
+
+Report Instance Areas: 
++------+------------------+--------------+------+
+|      |Instance          |Module        |Cells |
++------+------------------+--------------+------+
+|1     |top               |              |    60|
+|2     |  pps_generator_i |pps_generator |    20|
++------+------------------+--------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1428.758 ; gain = 501.555 ; free physical = 3477 ; free virtual = 12951
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1428.758 ; gain = 102.469 ; free physical = 3477 ; free virtual = 12951
+Synthesis Optimization Complete : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1428.758 ; gain = 501.555 ; free physical = 3477 ; free virtual = 12951
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 14 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+37 Infos, 5 Warnings, 7 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1428.758 ; gain = 434.051 ; free physical = 3455 ; free virtual = 12940
+INFO: [Common 17-1381] The checkpoint '/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.runs/synth_1/pps_generator_wrapper.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.05 . Memory (MB): peak = 1428.758 ; gain = 0.000 ; free physical = 3454 ; free virtual = 12939
+INFO: [Common 17-206] Exiting Vivado at Mon Jul  3 16:55:00 2017...

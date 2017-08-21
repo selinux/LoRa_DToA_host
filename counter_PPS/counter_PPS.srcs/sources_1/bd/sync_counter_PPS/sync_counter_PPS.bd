@@ -1,0 +1,510 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<bd:repository xmlns:bd="http://www.xilinx.com/bd" bd:BoundaryCRC="0xAE18CFF21EA730BC" bd:device="xc7a35tcpg236-1" bd:isValidated="true" bd:synthFlowMode="Hierarchical" bd:tool_version="2016.4" bd:top="sync_counter_PPS" bd:version="1.00.a">
+
+  <spirit:component xmlns:spirit="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009">
+    <spirit:vendor>xilinx.com</spirit:vendor>
+    <spirit:library>BlockDiagram</spirit:library>
+    <spirit:name>sync_counter_PPS</spirit:name>
+    <spirit:version>1.00.a</spirit:version>
+    <spirit:parameters>
+      <spirit:parameter>
+        <spirit:name>isTop</spirit:name>
+        <spirit:value spirit:format="bool" spirit:resolve="immediate">true</spirit:value>
+      </spirit:parameter>
+    </spirit:parameters>
+    <spirit:busInterfaces>
+      <spirit:busInterface>
+        <spirit:name>CLK.CLK100MHZ</spirit:name>
+        <spirit:displayName>Clk</spirit:displayName>
+        <spirit:description>Clock</spirit:description>
+        <spirit:busType spirit:library="signal" spirit:name="clock" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:abstractionType spirit:library="signal" spirit:name="clock_rtl" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:slave/>
+        <spirit:portMaps>
+          <spirit:portMap>
+            <spirit:logicalPort>
+              <spirit:name>CLK</spirit:name>
+            </spirit:logicalPort>
+            <spirit:physicalPort>
+              <spirit:name>CLK100MHZ</spirit:name>
+            </spirit:physicalPort>
+          </spirit:portMap>
+        </spirit:portMaps>
+        <spirit:parameters>
+          <spirit:parameter>
+            <spirit:name>FREQ_HZ</spirit:name>
+            <spirit:value>100000000</spirit:value>
+            <spirit:vendorExtensions>
+              <bd:configElementInfos>
+                <bd:configElementInfo bd:valueSource="default"/>
+              </bd:configElementInfos>
+            </spirit:vendorExtensions>
+          </spirit:parameter>
+          <spirit:parameter>
+            <spirit:name>PHASE</spirit:name>
+            <spirit:value>0.000</spirit:value>
+            <spirit:vendorExtensions>
+              <bd:configElementInfos>
+                <bd:configElementInfo bd:valueSource="default"/>
+              </bd:configElementInfos>
+            </spirit:vendorExtensions>
+          </spirit:parameter>
+          <spirit:parameter>
+            <spirit:name>CLK_DOMAIN</spirit:name>
+            <spirit:value>sync_counter_PPS_CLK100MHZ</spirit:value>
+            <spirit:vendorExtensions>
+              <bd:configElementInfos>
+                <bd:configElementInfo bd:valueSource="default"/>
+              </bd:configElementInfos>
+            </spirit:vendorExtensions>
+          </spirit:parameter>
+          <spirit:parameter>
+            <spirit:name>ASSOCIATED_RESET</spirit:name>
+            <spirit:value>btnC</spirit:value>
+            <spirit:vendorExtensions>
+              <bd:configElementInfos>
+                <bd:configElementInfo bd:valueSource="default"/>
+              </bd:configElementInfos>
+            </spirit:vendorExtensions>
+          </spirit:parameter>
+        </spirit:parameters>
+      </spirit:busInterface>
+      <spirit:busInterface>
+        <spirit:name>RST.BTNC</spirit:name>
+        <spirit:displayName>Reset</spirit:displayName>
+        <spirit:description>Reset</spirit:description>
+        <spirit:busType spirit:library="signal" spirit:name="reset" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:abstractionType spirit:library="signal" spirit:name="reset_rtl" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:slave/>
+        <spirit:portMaps>
+          <spirit:portMap>
+            <spirit:logicalPort>
+              <spirit:name>RST</spirit:name>
+            </spirit:logicalPort>
+            <spirit:physicalPort>
+              <spirit:name>btnC</spirit:name>
+            </spirit:physicalPort>
+          </spirit:portMap>
+        </spirit:portMaps>
+        <spirit:parameters>
+          <spirit:parameter>
+            <spirit:name>POLARITY</spirit:name>
+            <spirit:value>ACTIVE_HIGH</spirit:value>
+            <spirit:vendorExtensions>
+              <bd:configElementInfos>
+                <bd:configElementInfo bd:valueSource="user"/>
+              </bd:configElementInfos>
+            </spirit:vendorExtensions>
+          </spirit:parameter>
+        </spirit:parameters>
+      </spirit:busInterface>
+    </spirit:busInterfaces>
+    <spirit:model>
+      <spirit:views>
+        <spirit:view>
+          <spirit:name>BlockDiagram</spirit:name>
+          <spirit:envIdentifier>:vivado.xilinx.com:</spirit:envIdentifier>
+          <spirit:hierarchyRef spirit:library="BlockDiagram" spirit:name="sync_counter_PPS_imp" spirit:vendor="xilinx.com" spirit:version="1.00.a"/>
+        </spirit:view>
+      </spirit:views>
+      <spirit:ports>
+        <spirit:port>
+          <spirit:name>CLK100MHZ</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>btnL</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>an</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+            <spirit:vector>
+              <spirit:left>3</spirit:left>
+              <spirit:right>0</spirit:right>
+            </spirit:vector>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>seg</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+            <spirit:vector>
+              <spirit:left>6</spirit:left>
+              <spirit:right>0</spirit:right>
+            </spirit:vector>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>dp</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>btnC</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>RsRx</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>RsTx</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>btnR</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>sw0</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>sw1</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>JC0</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>JB0</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>JA0</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>JXADC0</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>LED0</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>LED1</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>LED2</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>LED3</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>LED5</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>LED4</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+      </spirit:ports>
+    </spirit:model>
+  </spirit:component>
+
+  <spirit:design xmlns:spirit="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009">
+    <spirit:vendor>xilinx.com</spirit:vendor>
+    <spirit:library>BlockDiagram</spirit:library>
+    <spirit:name>sync_counter_PPS_imp</spirit:name>
+    <spirit:version>1.00.a</spirit:version>
+    <spirit:componentInstances>
+      <spirit:componentInstance>
+        <spirit:instanceName>UART_0</spirit:instanceName>
+        <spirit:componentRef spirit:library="module_ref" spirit:name="UART" spirit:vendor="user.org" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">sync_counter_PPS_UART_0_0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="CLK_FREQ">100000000</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="PARITY_BIT">none</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:referenceName">UART</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:subInstancePath"></spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:referenceType">hdl</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:BoundaryCRC">0x0</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>counter_pps_0</spirit:instanceName>
+        <spirit:componentRef spirit:library="module_ref" spirit:name="counter_pps" spirit:vendor="user.org" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">sync_counter_PPS_counter_pps_0_0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:referenceName">counter_pps</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:subInstancePath"></spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:referenceType">hdl</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:BoundaryCRC">0x0</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>fifo_generator_0</spirit:instanceName>
+        <spirit:componentRef spirit:library="ip" spirit:name="fifo_generator" spirit:vendor="xilinx.com" spirit:version="13.1"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">sync_counter_PPS_fifo_generator_0_0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="Input_Data_Width">64</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="Output_Data_Width">64</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>mem_counter_0</spirit:instanceName>
+        <spirit:componentRef spirit:library="module_ref" spirit:name="mem_counter" spirit:vendor="user.org" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">sync_counter_PPS_mem_counter_0_0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:referenceName">mem_counter</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:subInstancePath"></spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:referenceType">hdl</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:BoundaryCRC">0x0</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>inputs_0</spirit:instanceName>
+        <spirit:componentRef spirit:library="module_ref" spirit:name="inputs" spirit:vendor="user.org" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">sync_counter_PPS_inputs_0_0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:referenceName">inputs</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:subInstancePath"></spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:referenceType">hdl</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:BoundaryCRC">0x0</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>system_ila</spirit:instanceName>
+        <spirit:componentRef spirit:library="ip" spirit:name="system_ila" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">sync_counter_PPS_system_ila_0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_PROBE2_TYPE">0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_PROBE1_TYPE">0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_PROBE0_TYPE">0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_NUM_OF_PROBES">3</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="C_MON_TYPE">NATIVE</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>display_0</spirit:instanceName>
+        <spirit:componentRef spirit:library="module_ref" spirit:name="display" spirit:vendor="user.org" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">sync_counter_PPS_display_0_0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:referenceName">display</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:subInstancePath"></spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:referenceType">hdl</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="bd:BoundaryCRC">0x0</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+    </spirit:componentInstances>
+    <spirit:adHocConnections>
+      <spirit:adHocConnection>
+        <spirit:name>clk_wiz_0_clk_out1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="CLK100MHZ"/>
+        <spirit:internalPortReference spirit:componentRef="UART_0" spirit:portRef="CLK"/>
+        <spirit:internalPortReference spirit:componentRef="counter_pps_0" spirit:portRef="clk"/>
+        <spirit:internalPortReference spirit:componentRef="fifo_generator_0" spirit:portRef="clk"/>
+        <spirit:internalPortReference spirit:componentRef="mem_counter_0" spirit:portRef="clk"/>
+        <spirit:internalPortReference spirit:componentRef="inputs_0" spirit:portRef="clk"/>
+        <spirit:internalPortReference spirit:componentRef="system_ila" spirit:portRef="clk"/>
+        <spirit:internalPortReference spirit:componentRef="display_0" spirit:portRef="clk"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>btnL_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="btnL"/>
+        <spirit:internalPortReference spirit:componentRef="inputs_0" spirit:portRef="button_init_i"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>counter_pps_0_secondes_o</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="counter_pps_0" spirit:portRef="secondes_o"/>
+        <spirit:internalPortReference spirit:componentRef="mem_counter_0" spirit:portRef="secondes_i"/>
+        <spirit:internalPortReference spirit:componentRef="display_0" spirit:portRef="sec"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>display_0_anodes</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="display_0" spirit:portRef="anodes"/>
+        <spirit:externalPortReference spirit:portRef="an"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>display_0_seg</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="display_0" spirit:portRef="seg"/>
+        <spirit:externalPortReference spirit:portRef="seg"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>display_0_dot</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="display_0" spirit:portRef="dot"/>
+        <spirit:externalPortReference spirit:portRef="dp"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>proc_sys_reset_0_mb_reset</spirit:name>
+        <spirit:externalPortReference spirit:portRef="btnC"/>
+        <spirit:internalPortReference spirit:componentRef="UART_0" spirit:portRef="RST"/>
+        <spirit:internalPortReference spirit:componentRef="counter_pps_0" spirit:portRef="rst"/>
+        <spirit:internalPortReference spirit:componentRef="fifo_generator_0" spirit:portRef="srst"/>
+        <spirit:internalPortReference spirit:componentRef="mem_counter_0" spirit:portRef="rst"/>
+        <spirit:internalPortReference spirit:componentRef="inputs_0" spirit:portRef="rst"/>
+        <spirit:internalPortReference spirit:componentRef="display_0" spirit:portRef="rst"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>fifo_generator_0_dout</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="mem_counter_0" spirit:portRef="ascii_o"/>
+        <spirit:internalPortReference spirit:componentRef="UART_0" spirit:portRef="DATA_IN"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>RsRx_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="RsRx"/>
+        <spirit:internalPortReference spirit:componentRef="UART_0" spirit:portRef="UART_RXD"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>UART_0_UART_TXD</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="UART_0" spirit:portRef="UART_TXD"/>
+        <spirit:externalPortReference spirit:portRef="RsTx"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>UART_0_BUSY</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="UART_0" spirit:portRef="BUSY"/>
+        <spirit:internalPortReference spirit:componentRef="mem_counter_0" spirit:portRef="uart_busy_i"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>mem_counter_0_uart_write_o</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="mem_counter_0" spirit:portRef="uart_write_o"/>
+        <spirit:internalPortReference spirit:componentRef="UART_0" spirit:portRef="DATA_SEND"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>mem_counter_0_chipscope_d_o</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="mem_counter_0" spirit:portRef="chipscope_d_o"/>
+        <spirit:internalPortReference spirit:componentRef="fifo_generator_0" spirit:portRef="din"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>inputs_0_init_o</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="inputs_0" spirit:portRef="init_o"/>
+        <spirit:internalPortReference spirit:componentRef="counter_pps_0" spirit:portRef="init_counter_i"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>btnR_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="btnR"/>
+        <spirit:internalPortReference spirit:componentRef="inputs_0" spirit:portRef="button_trigger_i"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>sw0_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="sw0"/>
+        <spirit:internalPortReference spirit:componentRef="inputs_0" spirit:portRef="select_pps_src_i"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>sw1_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="sw1"/>
+        <spirit:internalPortReference spirit:componentRef="inputs_0" spirit:portRef="select_trig_src_i"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>JC0_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="JC0"/>
+        <spirit:internalPortReference spirit:componentRef="inputs_0" spirit:portRef="usrp_trigger_i"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>JB0_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="JB0"/>
+        <spirit:internalPortReference spirit:componentRef="inputs_0" spirit:portRef="trigger_i"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>JA0_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="JA0"/>
+        <spirit:internalPortReference spirit:componentRef="inputs_0" spirit:portRef="gps_pps_i"/>
+        <spirit:internalPortReference spirit:componentRef="system_ila" spirit:portRef="probe0"/>
+        <bd:hdl_attributes>
+          <bd:hdl_attribute bd:name="DEBUG" bd:value="true"/>
+          <bd:hdl_attribute bd:name="MARK_DEBUG" bd:value="true"/>
+        </bd:hdl_attributes>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>JXADC0_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="JXADC0"/>
+        <spirit:internalPortReference spirit:componentRef="inputs_0" spirit:portRef="fake_pps_i"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>inputs_0_led_pps_o</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="inputs_0" spirit:portRef="led_pps_o"/>
+        <spirit:externalPortReference spirit:portRef="LED0"/>
+        <spirit:internalPortReference spirit:componentRef="system_ila" spirit:portRef="probe1"/>
+        <bd:hdl_attributes>
+          <bd:hdl_attribute bd:name="DEBUG" bd:value="true"/>
+          <bd:hdl_attribute bd:name="MARK_DEBUG" bd:value="true"/>
+        </bd:hdl_attributes>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>inputs_0_led_fake_pps_o</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="inputs_0" spirit:portRef="led_fake_pps_o"/>
+        <spirit:externalPortReference spirit:portRef="LED1"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>inputs_0_led_trigger_o</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="inputs_0" spirit:portRef="led_trigger_o"/>
+        <spirit:externalPortReference spirit:portRef="LED2"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>inputs_0_led_usrp_trigger_o</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="inputs_0" spirit:portRef="led_usrp_trigger_o"/>
+        <spirit:externalPortReference spirit:portRef="LED3"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>inputs_0_trigger_o</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="inputs_0" spirit:portRef="trigger_o"/>
+        <spirit:internalPortReference spirit:componentRef="mem_counter_0" spirit:portRef="trigger_i"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>inputs_0_pps_o</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="inputs_0" spirit:portRef="pps_o"/>
+        <spirit:internalPortReference spirit:componentRef="counter_pps_0" spirit:portRef="pps_i"/>
+        <spirit:internalPortReference spirit:componentRef="system_ila" spirit:portRef="probe2"/>
+        <bd:hdl_attributes>
+          <bd:hdl_attribute bd:name="DEBUG" bd:value="true"/>
+          <bd:hdl_attribute bd:name="MARK_DEBUG" bd:value="true"/>
+        </bd:hdl_attributes>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>inputs_0_led_init_o</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="inputs_0" spirit:portRef="led_init_o"/>
+        <spirit:externalPortReference spirit:portRef="LED5"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>inputs_0_led_button_trig_o</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="inputs_0" spirit:portRef="led_button_trig_o"/>
+        <spirit:externalPortReference spirit:portRef="LED4"/>
+      </spirit:adHocConnection>
+    </spirit:adHocConnections>
+  </spirit:design>
+
+</bd:repository>

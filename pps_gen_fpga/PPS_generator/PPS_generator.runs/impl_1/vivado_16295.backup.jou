@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:19 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Sun May 21 21:48:28 2017
+# Process ID: 16295
+# Current directory: /home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.runs/impl_1
+# Command line: vivado -log pps_counter_100mhz.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source pps_counter_100mhz.tcl -notrace
+# Log file: /home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.runs/impl_1/pps_counter_100mhz.vdi
+# Journal file: /home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source pps_counter_100mhz.tcl -notrace

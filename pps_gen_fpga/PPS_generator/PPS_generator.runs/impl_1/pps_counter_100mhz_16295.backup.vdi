@@ -1,0 +1,665 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:19 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Sun May 21 21:48:28 2017
+# Process ID: 16295
+# Current directory: /home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.runs/impl_1
+# Command line: vivado -log pps_counter_100mhz.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source pps_counter_100mhz.tcl -notrace
+# Log file: /home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.runs/impl_1/pps_counter_100mhz.vdi
+# Journal file: /home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source pps_counter_100mhz.tcl -notrace
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Project 1-479] Netlist was created with Vivado 2016.4
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc]
+WARNING: [Vivado 12-584] No ports matched 'sw[0]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:12]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:12]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[0]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[1]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[1]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[2]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[2]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[3]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[3]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[4]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[4]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[5]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[5]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[6]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[6]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[7]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[7]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[8]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:28]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:28]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[8]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:29]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:29]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[9]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:30]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:30]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[9]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:31]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:31]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[10]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[10]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[11]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[11]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[12]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[12]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[13]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[13]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[14]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:40]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:40]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[14]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:41]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:41]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[15]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sw[15]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[0]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:47]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:47]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[0]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:48]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:48]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[1]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:49]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:49]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[1]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:50]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:50]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[2]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:51]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:51]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[2]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:52]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:52]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[3]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:53]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:53]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[3]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:54]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:54]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[4]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:55]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:55]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[4]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:56]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:56]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[5]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:57]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:57]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[5]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:58]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:58]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[6]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:59]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:59]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[6]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:60]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:60]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[7]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:61]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:61]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[7]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:62]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:62]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[8]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:63]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:63]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[8]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:64]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:64]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[9]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:65]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:65]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[9]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:66]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:66]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[10]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:67]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:67]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[10]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:68]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:68]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[11]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:69]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:69]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[11]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:70]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:70]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[12]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:71]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:71]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[12]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:72]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:72]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[13]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:73]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:73]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[13]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:74]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:74]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[14]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:75]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:75]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[14]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:76]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:76]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[15]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:77]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:77]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[15]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:78]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:78]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btnC'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:111]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:111]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btnC'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:112]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:112]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btnU'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:113]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:113]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btnU'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:114]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:114]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btnL'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:115]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:115]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btnL'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:116]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:116]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btnR'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:117]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:117]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btnR'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:118]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:118]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btnD'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:119]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:119]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btnD'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:120]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:120]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JB[0]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:154]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:154]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JB[0]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:155]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:155]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JB[1]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:157]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:157]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JB[1]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:158]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:158]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JB[2]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:160]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:160]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JB[2]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:161]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:161]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JB[3]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:163]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:163]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JB[3]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:164]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:164]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JB[4]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:166]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:166]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JB[4]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:167]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:167]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JB[5]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:169]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:169]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JB[5]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:170]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:170]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JB[6]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:172]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:172]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JB[6]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:173]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:173]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JB[7]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:175]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:175]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JB[7]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:176]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:176]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JC[0]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:182]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:182]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JC[0]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:183]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:183]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JC[1]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:185]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:185]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JC[1]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:186]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:186]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JC[2]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:188]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:188]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JC[2]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:189]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:189]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JC[3]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:191]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:191]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JC[3]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:192]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:192]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JC[4]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:194]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:194]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JC[4]'. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:195]
+INFO: [Common 17-14] Message 'Vivado 12-584' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:195]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:195]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+INFO: [Common 17-14] Message 'Common 17-55' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc:195]
+Finished Parsing XDC File [/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.srcs/constrs_1/imports/new/basys3.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+link_design: Time (s): cpu = 00:00:04 ; elapsed = 00:00:44 . Memory (MB): peak = 1228.605 ; gain = 233.891 ; free physical = 3397 ; free virtual = 12356
+INFO: [Vivado_Tcl 4-424] Cannot write hardware definition file as there are no IPI block design hardware handoff files present
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.19 . Memory (MB): peak = 1328.637 ; gain = 100.031 ; free physical = 3359 ; free virtual = 12317
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Starting Logic Optimization Task
+Implement Debug Cores | Checksum: 10efa99a7
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 10efa99a7
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1708.066 ; gain = 0.000 ; free physical = 3028 ; free virtual = 11988
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-10] Eliminated 0 cells.
+Phase 2 Constant propagation | Checksum: 10efa99a7
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1708.066 ; gain = 0.000 ; free physical = 3028 ; free virtual = 11988
+
+Phase 3 Sweep
+INFO: [Opt 31-12] Eliminated 0 unconnected nets.
+INFO: [Opt 31-11] Eliminated 0 unconnected cells.
+Phase 3 Sweep | Checksum: 10efa99a7
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1708.066 ; gain = 0.000 ; free physical = 3028 ; free virtual = 11988
+
+Phase 4 BUFG optimization
+INFO: [Opt 31-12] Eliminated 0 unconnected nets.
+INFO: [Opt 31-11] Eliminated 0 unconnected cells.
+Phase 4 BUFG optimization | Checksum: 10efa99a7
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1708.066 ; gain = 0.000 ; free physical = 3028 ; free virtual = 11988
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1708.066 ; gain = 0.000 ; free physical = 3028 ; free virtual = 11988
+Ending Logic Optimization Task | Checksum: 10efa99a7
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1708.066 ; gain = 0.000 ; free physical = 3028 ; free virtual = 11988
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+Ending Power Optimization Task | Checksum: 10efa99a7
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1708.066 ; gain = 0.000 ; free physical = 3028 ; free virtual = 11988
+INFO: [Common 17-83] Releasing license: Implementation
+23 Infos, 100 Warnings, 100 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 1708.066 ; gain = 479.461 ; free physical = 3028 ; free virtual = 11988
+INFO: [Common 17-1381] The checkpoint '/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.runs/impl_1/pps_counter_100mhz_opt.dcp' has been generated.
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Coretcl 2-168] The results of DRC are in file /home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.runs/impl_1/pps_counter_100mhz_drc_opted.rpt.
+INFO: [Chipscope 16-241] No debug cores found in the current design.
+Before running the implement_debug_core command, either use the Set Up Debug wizard (GUI mode)
+or use the create_debug_core and connect_debug_core Tcl commands to insert debug cores into the design.
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 8 CPUs
+
+Phase 1 Placer Initialization
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1772.098 ; gain = 0.000 ; free physical = 3006 ; free virtual = 11965
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1772.098 ; gain = 0.000 ; free physical = 3006 ; free virtual = 11965
+
+Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 1115a88c0
+
+Time (s): cpu = 00:00:00.43 ; elapsed = 00:00:00.32 . Memory (MB): peak = 1830.109 ; gain = 58.012 ; free physical = 2973 ; free virtual = 11933
+
+Phase 1.2 Build Placer Netlist Model
+Phase 1.2 Build Placer Netlist Model | Checksum: 16e01eea5
+
+Time (s): cpu = 00:00:00.53 ; elapsed = 00:00:00.35 . Memory (MB): peak = 1862.125 ; gain = 90.027 ; free physical = 2966 ; free virtual = 11925
+
+Phase 1.3 Constrain Clocks/Macros
+Phase 1.3 Constrain Clocks/Macros | Checksum: 16e01eea5
+
+Time (s): cpu = 00:00:00.53 ; elapsed = 00:00:00.35 . Memory (MB): peak = 1862.125 ; gain = 90.027 ; free physical = 2966 ; free virtual = 11925
+Phase 1 Placer Initialization | Checksum: 16e01eea5
+
+Time (s): cpu = 00:00:00.53 ; elapsed = 00:00:00.35 . Memory (MB): peak = 1862.125 ; gain = 90.027 ; free physical = 2966 ; free virtual = 11925
+
+Phase 2 Final Placement Cleanup
+Phase 2 Final Placement Cleanup | Checksum: 16e01eea5
+
+Time (s): cpu = 00:00:00.53 ; elapsed = 00:00:00.35 . Memory (MB): peak = 1862.125 ; gain = 90.027 ; free physical = 2966 ; free virtual = 11925
+INFO: [Place 30-281] No place-able instance is found; design doesn't contain any instance or all instances are placed
+Ending Placer Task | Checksum: 1115a88c0
+
+Time (s): cpu = 00:00:00.53 ; elapsed = 00:00:00.35 . Memory (MB): peak = 1862.125 ; gain = 90.027 ; free physical = 2966 ; free virtual = 11925
+INFO: [Common 17-83] Releasing license: Implementation
+38 Infos, 100 Warnings, 100 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1862.125 ; gain = 0.000 ; free physical = 2965 ; free virtual = 11926
+INFO: [Common 17-1381] The checkpoint '/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.runs/impl_1/pps_counter_100mhz_placed.dcp' has been generated.
+report_io: Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.08 . Memory (MB): peak = 1862.125 ; gain = 0.000 ; free physical = 2963 ; free virtual = 11923
+report_utilization: Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.04 . Memory (MB): peak = 1862.125 ; gain = 0.000 ; free physical = 2963 ; free virtual = 11923
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.03 . Memory (MB): peak = 1862.125 ; gain = 0.000 ; free physical = 2963 ; free virtual = 11923
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 8 CPUs
+Checksum: PlaceDB: c2d6f64f ConstDB: 0 ShapeSum: 4e839271 RouteDB: 0
+
+Phase 1 Build RT Design
+Phase 1 Build RT Design | Checksum: b2fb3850
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 1907.793 ; gain = 45.668 ; free physical = 2898 ; free virtual = 11859
+
+Phase 2 Router Initialization
+
+Phase 2.1 Create Timer
+Phase 2.1 Create Timer | Checksum: b2fb3850
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 1907.793 ; gain = 45.668 ; free physical = 2898 ; free virtual = 11859
+
+Phase 2.2 Fix Topology Constraints
+Phase 2.2 Fix Topology Constraints | Checksum: b2fb3850
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 1916.781 ; gain = 54.656 ; free physical = 2871 ; free virtual = 11831
+
+Phase 2.3 Pre Route Cleanup
+Phase 2.3 Pre Route Cleanup | Checksum: b2fb3850
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 1916.781 ; gain = 54.656 ; free physical = 2871 ; free virtual = 11831
+ Number of Nodes with overlaps = 0
+
+Phase 2.4 Update Timing
+Phase 2.4 Update Timing | Checksum: 2e1788b6
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 1920.781 ; gain = 58.656 ; free physical = 2866 ; free virtual = 11826
+Phase 2 Router Initialization | Checksum: 2e1788b6
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 1920.781 ; gain = 58.656 ; free physical = 2866 ; free virtual = 11826
+
+Phase 3 Initial Routing
+ Number of Nodes with overlaps = 0
+Phase 3 Initial Routing | Checksum: 2e1788b6
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 1920.781 ; gain = 58.656 ; free physical = 2866 ; free virtual = 11826
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+
+Phase 4.1.1 Update Timing
+Phase 4.1.1 Update Timing | Checksum: 2e1788b6
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 1921.781 ; gain = 59.656 ; free physical = 2866 ; free virtual = 11826
+Phase 4.1 Global Iteration 0 | Checksum: 2e1788b6
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 1921.781 ; gain = 59.656 ; free physical = 2866 ; free virtual = 11826
+
+Phase 4.2 Global Iteration 1
+
+Phase 4.2.1 Update Timing
+Phase 4.2.1 Update Timing | Checksum: 2e1788b6
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 1921.781 ; gain = 59.656 ; free physical = 2866 ; free virtual = 11826
+Phase 4.2 Global Iteration 1 | Checksum: 2e1788b6
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 1921.781 ; gain = 59.656 ; free physical = 2866 ; free virtual = 11826
+
+Phase 4.3 Global Iteration 2
+
+Phase 4.3.1 Update Timing
+Phase 4.3.1 Update Timing | Checksum: 2e1788b6
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 1921.781 ; gain = 59.656 ; free physical = 2866 ; free virtual = 11826
+Phase 4.3 Global Iteration 2 | Checksum: 2e1788b6
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 1921.781 ; gain = 59.656 ; free physical = 2866 ; free virtual = 11826
+
+Phase 4.4 Global Iteration 3
+
+Phase 4.4.1 Update Timing
+Phase 4.4.1 Update Timing | Checksum: 2e1788b6
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:10 . Memory (MB): peak = 1921.781 ; gain = 59.656 ; free physical = 2866 ; free virtual = 11826
+Phase 4.4 Global Iteration 3 | Checksum: 2e1788b6
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:10 . Memory (MB): peak = 1921.781 ; gain = 59.656 ; free physical = 2866 ; free virtual = 11826
+
+Phase 4.5 Global Iteration 4
+
+Phase 4.5.1 Update Timing
+Phase 4.5.1 Update Timing | Checksum: 2e1788b6
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:10 . Memory (MB): peak = 1921.781 ; gain = 59.656 ; free physical = 2866 ; free virtual = 11826
+Phase 4.5 Global Iteration 4 | Checksum: 2e1788b6
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:10 . Memory (MB): peak = 1921.781 ; gain = 59.656 ; free physical = 2866 ; free virtual = 11826
+Phase 4 Rip-up And Reroute | Checksum: 2e1788b6
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:10 . Memory (MB): peak = 1921.781 ; gain = 59.656 ; free physical = 2866 ; free virtual = 11826
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+Phase 5.1 Delay CleanUp | Checksum: 2e1788b6
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:10 . Memory (MB): peak = 1921.781 ; gain = 59.656 ; free physical = 2866 ; free virtual = 11826
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 2e1788b6
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:10 . Memory (MB): peak = 1921.781 ; gain = 59.656 ; free physical = 2866 ; free virtual = 11826
+Phase 5 Delay and Skew Optimization | Checksum: 2e1788b6
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:10 . Memory (MB): peak = 1921.781 ; gain = 59.656 ; free physical = 2866 ; free virtual = 11826
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: 2e1788b6
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:10 . Memory (MB): peak = 1921.781 ; gain = 59.656 ; free physical = 2866 ; free virtual = 11826
+Phase 6.1 Hold Fix Iter | Checksum: 2e1788b6
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:10 . Memory (MB): peak = 1921.781 ; gain = 59.656 ; free physical = 2866 ; free virtual = 11826
+Phase 6 Post Hold Fix | Checksum: 2e1788b6
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:10 . Memory (MB): peak = 1921.781 ; gain = 59.656 ; free physical = 2866 ; free virtual = 11826
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0 %
+  Global Horizontal Routing Utilization  = 0 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 7 Route finalize | Checksum: 2e1788b6
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:10 . Memory (MB): peak = 1921.781 ; gain = 59.656 ; free physical = 2866 ; free virtual = 11826
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 2e1788b6
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:10 . Memory (MB): peak = 1923.781 ; gain = 61.656 ; free physical = 2863 ; free virtual = 11824
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 2e1788b6
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:10 . Memory (MB): peak = 1923.781 ; gain = 61.656 ; free physical = 2863 ; free virtual = 11824
+
+Phase 10 Post Router Timing
+Phase 10 Post Router Timing | Checksum: 2e1788b6
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:10 . Memory (MB): peak = 1923.781 ; gain = 61.656 ; free physical = 2863 ; free virtual = 11824
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:10 . Memory (MB): peak = 1923.781 ; gain = 61.656 ; free physical = 2863 ; free virtual = 11824
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+46 Infos, 100 Warnings, 100 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:51 . Memory (MB): peak = 1923.781 ; gain = 61.656 ; free physical = 2820 ; free virtual = 11786
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 1923.781 ; gain = 0.000 ; free physical = 2819 ; free virtual = 11786
+INFO: [Common 17-1381] The checkpoint '/home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.runs/impl_1/pps_counter_100mhz_routed.dcp' has been generated.
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Coretcl 2-168] The results of DRC are in file /home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.runs/impl_1/pps_counter_100mhz_drc_routed.rpt.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 8 threads
+INFO: [Coretcl 2-1520] The results of Report Methodology are in file /home/seba/documents/hepia/lora/pps_gen_fpga/PPS_generator/PPS_generator.runs/impl_1/pps_counter_100mhz_methodology_drc_routed.rpt.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 8 CPUs
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Command: report_power -file pps_counter_100mhz_power_routed.rpt -pb pps_counter_100mhz_power_summary_routed.pb -rpx pps_counter_100mhz_power_routed.rpx
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+56 Infos, 100 Warnings, 100 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+Command: write_bitstream -force -no_partial_bitfile pps_counter_100mhz.bit
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+Running DRC as a precondition to command write_bitstream
+INFO: [DRC 23-27] Running DRC with 8 threads
+WARNING: [DRC 23-20] Rule violation (NSTD-1) Unspecified I/O Standard - 32 out of 32 logical ports use I/O standard (IOSTANDARD) value 'DEFAULT', instead of a user assigned specific value. This may cause I/O contention or incompatibility with the board power or connectivity affecting performance, signal integrity or in extreme cases cause damage to the device or the components to which it is connected. To correct this violation, specify all I/O standards. This design will fail to generate a bitstream unless all logical ports have a user specified I/O standard value defined. To allow bitstream creation with unspecified I/O standard values (not recommended), use this command: set_property SEVERITY {Warning} [get_drc_checks NSTD-1].  NOTE: When using the Vivado Runs infrastructure (e.g. launch_runs Tcl command), add this command to a .tcl file and add that file as a pre-hook for write_bitstream step for the implementation run. Problem ports: led_o[15:0], pps0_o[7:0], pps1_o[7:0].
+WARNING: [DRC 23-20] Rule violation (UCIO-1) Unconstrained Logical Port - 32 out of 32 logical ports have no user assigned specific location constraint (LOC). This may cause I/O contention or incompatibility with the board power or connectivity affecting performance, signal integrity or in extreme cases cause damage to the device or the components to which it is connected. To correct this violation, specify all pin locations. This design will fail to generate a bitstream unless all logical ports have a user specified site LOC constraint defined.  To allow bitstream creation with unspecified pin locations (not recommended), use this command: set_property SEVERITY {Warning} [get_drc_checks UCIO-1].  NOTE: When using the Vivado Runs infrastructure (e.g. launch_runs Tcl command), add this command to a .tcl file and add that file as a pre-hook for write_bitstream step for the implementation run.  Problem ports: led_o[15:0], pps0_o[7:0], pps1_o[7:0].
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 2 Warnings
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream ./pps_counter_100mhz.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
